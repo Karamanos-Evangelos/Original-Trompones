@@ -1,0 +1,177 @@
+body{
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#header{
+  width: 100%;
+  position: fixed;
+  background-color: #EEEEEE;
+  height: 100px;
+}
+
+#container{
+  width: 60%;
+  margin: 0 auto;
+  text-align:center;
+  padding-top: 100px;
+}
+
+#header-img{
+  width: 30%;
+  float: left;
+}
+
+nav{
+  float: right;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display: inline;
+  margin-left: 60px;
+}
+
+input{
+  width: 250px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+#get-started{
+  background-color: #F1C40F;
+  border: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-bottom: 100px;
+}
+
+.icon{
+  float: left;
+}
+
+#premium-materials{
+  margin-bottom: 50px;
+}
+
+#fast-shipping{
+  margin-bottom: 50px;
+}
+
+#quality-assurance{
+  margin-bottom: 50px;
+}
+
+#features-header{
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#features-span{
+  display: block;
+  text-align: left;
+  margin-left: 100px;
+}
+
+iframe{
+  margin-top: 30px;
+}
+
+#flexbox-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#column{
+  border: 1px solid black;
+  width: 30%;
+  height: 350px;
+  line-height: 1.8;
+  font-size: 20px;
+  border-radius: 2px;
+  margin-top: 60px;
+}
+
+.title-space{
+  background-color: #DDDDDD;
+  height: 40px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+#cost{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#select{
+  background-color: #F1C40F;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+#footer-nav{
+  height: 50px;
+  background-color: #DDDDDD;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+
+
+/*Media Queries for mobile*/
+@media screen and (max-width: 600px){
+
+    #header-img{
+      float: none;
+      width: 50%;
+      display: block;
+      margin: auto;
+    }
+
+    nav{
+      float: none;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    iframe{
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+
+    #flexbox-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    #column{
+      border: 1px solid black;
+      width: 100%;
+      height: 350px;
+      line-height: 1.8;
+      font-size: 20px;
+      border-radius: 2px;
+      margin-top: 60px;
+    }
+}
